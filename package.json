@@ -1,0 +1,17 @@
+{
+  "name": "farseer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "browse": "tsx src/browse.ts",
+    "inspect": "tsx src/inspect.ts",
+    "scrape": "tsx src/scrape.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "playwright": "^1.55.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
