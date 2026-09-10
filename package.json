@@ -6,7 +6,9 @@
   "scripts": {
     "browse": "tsx src/browse.ts",
     "inspect": "tsx src/inspect.ts",
-    "scrape": "tsx src/scrape.ts"
+    "inspect:danawa-atx": "tsx src/inspect-danawa-atx-cases.ts",
+    "scrape": "tsx src/scrape.ts",
+    "scrape:danawa-atx": "tsx src/scrape-danawa-atx-cases.ts"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",

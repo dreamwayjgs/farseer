@@ -13,6 +13,7 @@ Farseer는 사람 대신 웹사이트를 탐색하고, 비교나 의사결정에
 - `src/browse.ts`: 조사 대상 페이지를 실제 브라우저로 연다.
 - `src/inspect.ts`: DOM 선택자와 상품 API를 진단한다.
 - `src/scrape.ts`: 쿠쿠 밥솥 목록의 모든 더보기 페이지를 순회해 데이터를 수집한다.
+- `src/scrape-danawa-atx-cases.ts`: 다나와 케이스 목록에서 ATX 지원 모델과 외형 크기를 수집한다.
 - `data/`: 조사 결과를 저장한다.
 - `PROJECTS.md`: 조사별 목표, 범위, 발견 사항과 다음 작업을 기록한다.
 
@@ -43,6 +44,12 @@ npm run inspect
 
 ```bash
 npm run scrape
+```
+
+다나와 ATX 케이스 수집:
+
+```bash
+npm run scrape:danawa-atx
 ```
 
 TypeScript 검사:
