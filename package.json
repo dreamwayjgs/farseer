@@ -8,7 +8,9 @@
     "inspect": "tsx src/inspect.ts",
     "inspect:danawa-atx": "tsx src/inspect-danawa-atx-cases.ts",
     "scrape": "tsx src/scrape.ts",
-    "scrape:danawa-atx": "tsx src/scrape-danawa-atx-cases.ts"
+    "scrape:danawa-atx": "tsx src/scrape-danawa-atx-cases.ts",
+    "login:siwol": "tsx src/siwol.ts login",
+    "usage:siwol": "tsx src/siwol.ts usage"
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
